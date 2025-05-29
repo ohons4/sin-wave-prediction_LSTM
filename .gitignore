@@ -172,3 +172,11 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.nbconvert.ipynb  # Export時に生成される可能性があるファイル
+
+# Jupyter Notebookの出力を含むがバージョン管理不要な一時ファイル
+*.nb.html
+*.nb.json
