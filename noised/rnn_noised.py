@@ -21,7 +21,7 @@ def make_prediction_initial(train_data, index, length_of_sequences):
   return train_data[index:index + length_of_sequences, 0]
 
 # パラメータ定義
-train_data_path              = "/Users/ohons/sin-wave-prediction_LSTM/train_data/noised.npy"
+train_data_path              = "../train_data/noised.npy"
 num_of_input_nodes           = 1
 num_of_hidden_nodes          = 2
 num_of_output_nodes          = 1
